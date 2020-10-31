@@ -1,5 +1,5 @@
 from django import forms
-from box.apps.sw_payment.privat24 import models
+from privat24 import models
 
 class Privat24Form(forms.Form):
     amt = forms.DecimalField()
